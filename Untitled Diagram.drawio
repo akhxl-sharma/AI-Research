@@ -1,24 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T20:33:26.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="OAqw1a1_VNyicK1464nN" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T20:49:49.208Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="OJaOuNRolBvh3guInVI0" version="21.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="967" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="967" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="6K3yG1Nncb-dPVnbVVmm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="80" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-0" target="6K3yG1Nncb-dPVnbVVmm-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6K3yG1Nncb-dPVnbVVmm-0" value="EEG " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6K3yG1Nncb-dPVnbVVmm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-1">
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-1" value="CV" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="850" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-5" value="Implicit is video to prediction or text or multi modality " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-6" target="6K3yG1Nncb-dPVnbVVmm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-6" value="&lt;div&gt;Model that predicts level of stress:&lt;/div&gt;&lt;div&gt;&lt;b&gt;MLR &lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-10" value="Probability of how certain that person is actually stressed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-12" target="6K3yG1Nncb-dPVnbVVmm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-12" value="Text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-14" target="6K3yG1Nncb-dPVnbVVmm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-14" target="6K3yG1Nncb-dPVnbVVmm-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-14" value="USER" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-18" target="6K3yG1Nncb-dPVnbVVmm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-18" value="Video" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-23" target="6K3yG1Nncb-dPVnbVVmm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-23" value="Word embedding: vectors that represent the sentence and time embedding for where it is " style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="335" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-24" value="Explicit is eeg to stress" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-27" target="6K3yG1Nncb-dPVnbVVmm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-27" target="6K3yG1Nncb-dPVnbVVmm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-27" value="&lt;div&gt;VR Headset &lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="85" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-35" target="6K3yG1Nncb-dPVnbVVmm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-35" value="&lt;div&gt;FFMPEG&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-38" target="6K3yG1Nncb-dPVnbVVmm-42">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="80" as="targetPoint" />
+            <mxPoint x="720" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6K3yG1Nncb-dPVnbVVmm-1" value="Video form VR" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-38" value="&lt;div&gt;CLIP OPENAI MODEL&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="530" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-42" target="6K3yG1Nncb-dPVnbVVmm-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-42" value="Understanding of image and text as a vector or wtv " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="650" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-43" value="Using this info to predict the probability of stress " style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="980" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6K3yG1Nncb-dPVnbVVmm-45" target="6K3yG1Nncb-dPVnbVVmm-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3yG1Nncb-dPVnbVVmm-45" value="MODEL WE NEED TO TRAIN: Connects some understanding of images to stress level (OPEN PROBLEM)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="632.5" y="780" width="175" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
